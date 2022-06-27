@@ -11,10 +11,10 @@ Requirements
 Role Variables
 --------------
 
-domain: Active direcory domain to join
-domain_admin_user
-domain_admin_password
-domain_ou_path (ex: "OU=Windows,OU=Servers,DC=domain,DC=local")
+- domain: Active direcory domain to join
+- domain_admin_user
+- domain_admin_password
+- domain_ou_path (ex: "OU=Windows,OU=Servers,DC=domain,DC=local")
 
 Dependencies
 ------------
